@@ -3,10 +3,15 @@
 网易云音乐 Node.js API service
 
 先拿到个歌手的清单：http://localhost:3005/artist/list?type=1&area=7
+
 歌手的全部歌曲：http://localhost:3005/artist/top/song?id=861777
+
 歌手的某条歌曲：http://localhost:3005/song/url?id=1436910205
+
 歌手的某条歌曲的歌词：http://localhost:3005/lyric?id=1436910205
+
 拿到歌手的mv的id才可以获取歌曲的http://localhost:3005/artist/mv?id=12429072
+
 歌曲的http://localhost:3005/mv/url?id=10858662（这个id根据上面那条的id拿到的）
 
 
